@@ -32,3 +32,15 @@ Abre GHCi cargando el código. Mientras desarrollas:
 - `:r` recarga los cambios hechos en `Main.hs`
 - `:l Main.hs` recarga un módulo explícito
 - `:q` sale
+
+| usuario valido | contraseña valida | Permitir acceso |
+| -------------- | ----------------- | --------------- |
+| TRUE           | FALSE             | FALSE           |
+| FALSE          | TRUE              | FALSE           |
+| TRUE           | TRUE              | TRUE            |
+
+| usuario invalido | contraseña invalida | Permitir acceso |
+| ---------------- | ------------------- | --------------- |
+| FALSE            | TRUE                | FALSE           |
+| TRUE             | FALSE               | FALSE           |
+| FALSE            | FALSE               | TRUE            |
