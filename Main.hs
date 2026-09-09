@@ -13,3 +13,6 @@ main = do
   putStrLn ("Lista dos: " ++ show listTwo)
   putStrLn ("Lista multiplicada: " ++ show multipliedList)
   putStrLn ("Otra forma: " ++ show otherForm)
+
+--   putStrLn "Ingresa True o False: "
+--   x <- readLn :: IO Bool

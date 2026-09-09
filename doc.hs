@@ -348,11 +348,12 @@ ejemploArbol = Nodo (Hoja 1) (Nodo (Hoja 2) (Hoja 3))
 -- Maybe a  = Nothing  |  Just x    representa "puede fallar".
 -- Either a b = Left a | Right b    representa "error o exito".
 
-raiz, divisionSegura :: Double -> Double -> Maybe Double
+raiz :: Double -> Maybe Double
 raiz n
   | n < 0     = Nothing
   | otherwise = Just (sqrt n)
 
+divisionSegura :: Double -> Double -> Maybe Double
 divisionSegura _ 0 = Nothing
 divisionSegura a b = Just (a / b)
 
