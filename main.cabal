@@ -12,3 +12,8 @@ executable types
   main-is:          excercises/Types.hs
   build-depends:    base ^>= 4.20
   default-language: Haskell2010
+
+executable operaciones
+  main-is:          excercises/Operaciones.hs
+  build-depends:    base ^>= 4.20
+  default-language: Haskell2010
